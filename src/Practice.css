@@ -1,0 +1,30 @@
+@font-face {
+    font-family:"h1-style";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family:"p-style";
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+h1{
+    font-family: "h1-style";
+}
+
+p{
+    font-family: "p-style";
+}
+
+button{
+    font-family: "p-style";
+}
